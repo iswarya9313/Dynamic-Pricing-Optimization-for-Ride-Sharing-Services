@@ -153,25 +153,8 @@ The training of the predictive model is a crucial step in the dynamic pricing pr
 - **Data Reshaping:** The target variable (y) is reshaped into a 1D array, ensuring compatibility with the scikit-learn model.
 
 
-### Testing
-
-1. **User Input Prediction:**
-   - The code defines a function `get_vehicle_type_numeric` to map vehicle types ("Premium" or "Economy") to numeric values (1 or 0).
-   - The `predict_price` function uses user-input values (number of riders, drivers, vehicle type, and expected ride duration) to make predictions using the trained model.
-
-2. **Actual vs Predicted Visualization:**
-   - The code predicts on the test set and creates a scatter plot comparing actual vs. predicted values. Additionally, it adds a line representing the ideal case (where actual equals predicted).
-
-3. **Evaluation Metrics:**
-   - The code calculates and prints Mean Absolute Error (MAE), Mean Squared Error (MSE), and Root Mean Squared Error (RMSE) as evaluation metrics to assess the model's performance on the test set.
-
-4. **Feature Importances Visualization:**
-   - The code retrieves feature importances from the trained model and creates a bar chart to visualize the importance of each feature in making predictions.
-
 # Key Considerations:
 
 - **User Input Prediction:** The ability to predict prices using user-input values showcases the practical application of the trained model for real-world scenarios.
-
-- **Evaluation Metrics:** MAE, MSE, and RMSE provide a comprehensive assessment of how well the model generalizes to new, unseen data.
 
 - **Feature Importances:** Understanding feature importances helps in interpreting the model and identifying key factors influencing predictions.
