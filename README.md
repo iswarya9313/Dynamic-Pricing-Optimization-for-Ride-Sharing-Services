@@ -82,27 +82,8 @@ The exploratory data analysis (EDA) for the dynamic pricing project involved a c
 2. **Expected Ride Duration vs. Historical Cost:**
    - Explored the relationship between the expected ride duration and the historical cost of the ride using a scatter plot. The plot included a trendline to visualize potential trends or patterns.
 
-3. **Historical Cost Distribution by Vehicle Type:**
-   - Investigated the distribution of historical costs based on different vehicle types using a box plot. This visualization provided insights into how the type of vehicle may impact the cost of rides.
-
-4. **Correlation Matrix:**
-   - Computed and visualized the correlation matrix to identify potential relationships between numerical features. This step is crucial for understanding the interdependencies between different factors.
-
-5. **Historical Cost Distribution by Customer Loyalty Status:**
-   - Examined how historical costs vary based on customer loyalty status using a box plot. This analysis provides insights into whether loyal customers experience different pricing dynamics.
-
-6. **Historical Cost Distribution by Time of Booking:**
-   - Investigated the distribution of historical costs based on the time of booking. This analysis helps understand how temporal factors influence ride costs.
-
-7. **Historical Cost Distribution by Location Category:**
-   - Explored the distribution of historical costs across different location categories (Urban, Suburban, Rural) using a box plot. This analysis provides insights into regional pricing dynamics.
-
-8. **Number of Riders vs. Number of Drivers:**
+3. **Number of Riders vs. Number of Drivers:**
    - Visualized the relationship between the number of riders and the number of drivers using a scatter plot. This analysis provides insights into the balance between demand and supply.
-
-9. **Average Ratings vs. Historical Cost:**
-   - Explored the relationship between average ratings and historical costs using a scatter plot. Understanding how customer ratings relate to costs can provide insights into the perceived value of the service.
-
 
 ### Implementing Dynamic Pricing Strategy
 
